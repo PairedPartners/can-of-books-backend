@@ -24,7 +24,7 @@ async function seed() {
     status: 'Read' 
   })
   await myBook.save()
-    .then(response => console.log('Saved Solo to Database'))
+    .then(response => console.log('Saved The Very Secret Society of Irregular Witches to Database'))
     .catch(err => console.error(err));
 
   // Alternate method .create()
@@ -39,7 +39,17 @@ async function seed() {
   So begins a tale unequaled in fantasy literature—the story of a hero told in his own voice. It is a tale of sorrow, a tale of survival, a tale of one man’s search for meaning in his universe, and how that search, and the indomitable will that drove it, gave birth to a legend.`,
   status: 'Read' 
   })
-  .then(response => console.log('Saved Luna to Database'))
+  .then(response => console.log('Saved The Name of The Wind to Database'))
+  .catch(err => console.error(err));
+
+  await Book.create({
+    title: 'The Hobbit',
+  description: `"In a hole in the ground there lived a hobbit." So begins one of the most beloved and delightful tales in the English language—Tolkien's prelude to The Lord of the Rings. Set in the imaginary world of Middle-earth, at once a classic myth and a modern fairy tale, The Hobbit is one of literature's most enduring and well-loved novels.
+
+  Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum.`,
+  status: 'Read' 
+  })
+  .then(response => console.log('Saved The Hobbit to Database'))
   .catch(err => console.error(err));
 
   // Disconnecting from Database

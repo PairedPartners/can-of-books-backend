@@ -1,7 +1,7 @@
 'use strict';
 
-require('dotenv').config();
 const express = require('express');
+require('dotenv').config();
 const cors = require('cors');
 
 const mongoose = require('mongoose');
@@ -10,7 +10,7 @@ const getBooks = require('./book/getBook');
 const app = express();
 app.use(cors());
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 // Establish connection with atlas db with our url
 mongoose.connect(process.env.MONGODB_URL);
