@@ -33,7 +33,40 @@ Application to manage a database of books that a user has read and that have imp
 <!-- See below -->
 
 ## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+Logistical
+
+What hours will you be available to communicate? Class hours
+What platform will you use to communicate (ie. Slack, phone …)? Slack
+How often will you take breaks? every 90 minutes or as needed
+What is your plan if you start to fall behind? ask for help, complete what we can, discuss what needs to be done to complete
+
+Cooperative
+
+Make a list of each parson’s strengths.
+Hannah- Organization, CSS, HTML 
+Nick- Javascript, CSS, HTML, Planning and Organizing
+
+How can you best utilize these strengths in the development of your application?
+We can use the power of teamwork to compliment our similar skills
+
+In what areas do you each want to develop greater strength?
+Hannah- more comfortable with navigating through everything and Javascript
+Nick- React front end and back end integration
+
+Knowing that every person in your team needs to understand the code, how do you plan to approach the day-to-day development?
+check in's and daily goals
+
+Conflict Resolution
+
+What will your team do if one person is pulling all the weight while the other person is not contributing?
+talk about it like adults, and figure out strengths to focus on
+
+What will your team do if one person is taking over the project and not letting the other member contribute?
+talk about it like adults
+
+How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
+ask questions and be vulnerable to say I don't know. 
 
 
 Name of feature: ________________________________
