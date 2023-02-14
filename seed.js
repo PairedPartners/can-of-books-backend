@@ -21,7 +21,8 @@ async function seed() {
     But someone does. An unexpected message arrives, begging her to travel to the remote and mysterious Nowhere House to teach three young witches how to control their magic. It breaks all of the rules, but Mika goes anyway, and is immediately tangled up in the lives and secrets of not only her three charges, but also an absent archaeologist, a retired actor, two long-suffering caretakers, and…Jamie. The handsome and prickly librarian of Nowhere House would do anything to protect the children, and as far as he’s concerned, a stranger like Mika is a threat. An irritatingly appealing threat.
      
     As Mika begins to find her place at Nowhere House, the thought of belonging somewhere begins to feel like a real possibility. But magic isn't the only danger in the world, and when peril comes knocking at their door, Mika will need to decide whether to risk everything to protect a found family she didn’t know she was looking for....`,
-    status: 'Read' 
+    status: 'Read'
+     
   })
   await myBook.save()
     .then(response => console.log('Saved The Very Secret Society of Irregular Witches to Database'))
