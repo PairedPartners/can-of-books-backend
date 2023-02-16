@@ -9,6 +9,7 @@ const {Schema} = mongoose;
 // Creating new Schema that our Model with adhere to
 const bookSchema = new Schema ({
   title: String,
+  genre: String,
   description: String,
   status: String
 })
