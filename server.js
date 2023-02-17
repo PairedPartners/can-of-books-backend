@@ -15,6 +15,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 3002;
 
+
 // Establish connection with atlas db with our url
 mongoose.connect(process.env.MONGODB_URL);
 
