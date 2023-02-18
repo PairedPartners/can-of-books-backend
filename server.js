@@ -39,6 +39,9 @@ app.post('/books', bookHandler.postBooks);
 // Route that deletes a new book to our database
 app.delete('/books/:id', bookHandler.deleteBooks);
 
+// Route that updates a book by ID
+app.put('/books/:id', bookHandler.putBook);
+
 app.get('/test', (request, response) => {
 
   response.send('test request received');
