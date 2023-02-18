@@ -48,4 +48,15 @@ bookHandler.deleteBooks = function(req, res, next){
   .catch(err => next(err));
 }
 
+bookHandler.putBook = function(req, res, next){
+  const id = req.params.id;
+   // grabbing json data from request body
+   const data = req.body;
+   // new - returns updated doc instead of old
+   // overwrite - overwrites data completely avoiding unwanted side effects
+  Book.findByIdAndUpdate(id, data, {new: true, overwrite: true})
+  .then(updatedBook => res.status(200).send(updatedBook))
+  .catch(err => next(err));
+}
+
 module.exports = {bookHandler};
