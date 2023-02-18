@@ -13,7 +13,7 @@ Clone this repo to your own account with the green "Use this template" button. T
 # Can of Books
 
 **Author**: Hannah H, Nick M
-**Version**: 1.0.1 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.2.1 
 
 ## Overview
 Application to manage a database of books that a user has read and that have impacted them. Used for tracking and keeping up with reading lists
@@ -69,12 +69,22 @@ How will you approach each other and the challenge of building an application kn
 ask questions and be vulnerable to say I don't know. 
 
 
-Name of feature: ________________________________
+Name of feature: Add Book Function
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hours
 
-Start time: _____
+Actual time needed to complete: 1 hours
 
-Finish time: _____
 
-Actual time needed to complete: _____
+Name of feature: Delete Book Function
+
+Estimate of time needed to complete: 1 hours
+
+Actual time needed to complete: .5 hours
+
+
+Name of feature: Update Book Function
+
+Estimate of time needed to complete: 1 hours
+
+Actual time needed to complete: .5 hours
