@@ -7,7 +7,7 @@ const bookHandler = {};
 // Book Getter
 bookHandler.getBooks = function(req, res, next){
   //Q object is empty to get everything
-  let queryObject={};
+  let queryObject={email: req.user.email};
   Book.find(queryObject)
   .then(data => res.status(200).send(data))
   .catch(err => console.error(err));
@@ -30,14 +30,9 @@ bookHandler.getBooks = function(req, res, next){
 bookHandler.postBooks = function(req, res, next){
   // Storing our data in a variable 
   const data = req.body;
-   Book.create(data)
-  //  console.log(data)
-   .then(createdBook => {
-    console.log(createdBook)
-    return res.status(200).send(createdBook)
-  })
-  //  console.log(createdBook)
-   .catch(err => next(err));
+  Book.create({...req.body, email: req.user.email})
+  .then(createdBook => res.status(200).send(createdBook))
+  .catch(err => next(err));
 }
 
 // Book Deleter

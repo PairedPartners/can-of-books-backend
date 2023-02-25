@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 // Deconstructing Schema out of mongoose
 const {Schema} = mongoose;
 
-// Creating new Schema that our Model with adhere to
+// Creating new Schema that our Model will adhere to
 const bookSchema = new Schema ({
   title: String,
   genre: String,
